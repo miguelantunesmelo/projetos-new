@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Product Sans;
+    src: url(fonts/Product\ Sans\ Bold.ttf);
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Product Sans;
 }
 
 html, body {
@@ -59,7 +65,7 @@ body::-webkit-scrollbar {
 }
 
 .hero h1 {
-    font-size: 25px;
+    font-size: 25vw;
     color: #fff;
 }
 
@@ -96,9 +102,10 @@ body::-webkit-scrollbar {
 
 #folha2 {
     position: absolute;
-    top: 70%
-    
-
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    width: 12%;
 }
 
 #folha3 {
