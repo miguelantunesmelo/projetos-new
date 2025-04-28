@@ -15,7 +15,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
+    
 }
 body::-webkit-scrollbar {
     display: none;
@@ -115,6 +115,39 @@ body::-webkit-scrollbar {
     right: 0%;
 }
 
-.hero img {
-    width: 50px;
+/* EDITANDO A SEGUNDA SEÇÃO */
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #4d231c;
+}
+
+.left-side, .right-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.left-side img {
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.right-side h2 {
+    color:#fff;
+    font-size: 5vw;
+}
+
+
+.right-side p {
+    color: #fff;
+    font-size: 1vw;
+    width: 80%;
 }
