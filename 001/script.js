@@ -28,3 +28,14 @@ tl.to(
     },
     'laranja'
 ); // Sicronizado com a animação nomeada 'laranja'
+
+tl.to(
+    '#laranja',
+    {
+        width: '15', // Reduz a largura do elemeto com o id 'laranja' para 15%
+        top: '160%', // Move o elemento para 160% do topo
+        right: '10%', // Move o elemento para 10% da direita
+    },
+    'laranja'
+); // Sicronizado com a animação nomeada 'laranja'
+
