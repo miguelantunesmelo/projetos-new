@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
     right: 0%;
 }
 
-/* EDITANDO A SEGUNDA SEÇÃO */
+/* ESTILIZANDO A SEGUNDA SEÇÃO */
 
 .two {
     display: flex;
@@ -151,3 +151,6 @@ body::-webkit-scrollbar {
     font-size: 1vw;
     width: 80%;
 }
+
+/* ESTILIZANDO A TERCEIRA SEÇÃO */
+
