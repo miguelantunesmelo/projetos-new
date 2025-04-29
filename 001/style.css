@@ -41,6 +41,12 @@ body::-webkit-scrollbar {
     color: white;
     text-decoration: none;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .nav-menu {
@@ -52,6 +58,7 @@ body::-webkit-scrollbar {
     width: 40px;
     height: 40px;
     object-fit: cover;
+    cursor: pointer;
     
 }
 
@@ -196,6 +203,11 @@ body::-webkit-scrollbar {
    background-color: rgb(255, 149, 0);
    color: #fff;
    padding: 1vw 2vw;
+   cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(207, 121, 0);
 }
 
 #cocacola {

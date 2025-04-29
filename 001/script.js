@@ -116,10 +116,19 @@ tl2.from(
 tl2.to(
     '#laranja-cortada',
     {
-        width: '18%', // Aumenta a largura do elemento com o id 'çaranja-cortada' para 18%
+        width: '18%', // Aumenta a largura do elemento com o id 'laranja-cortada' para 18%
         left: '42%', // Move o elemento para 42% da esquerda
         top: '204%', // Move o elemento para 204% do topo
     },
     'ca'
 ); // Sicronizado com a animação nomeada 'ca'
 
+tl2.to(
+    '#fanta',
+    {
+        width: '35%', // Aumenta a largura do elemento com o id 'fanta' para 35%
+        left: '33%', // Move o elemento para 33% da esquerda
+        top: '210%', // Move o elemento para 210% do topo
+    },
+    'ca'
+); // Sicronizado com a animação nomeada 'ca'
