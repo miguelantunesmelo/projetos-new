@@ -58,3 +58,26 @@ tl.to(
     },
     'laranja'
 ); // Sicronizando com a animação nomeada 'laranja'
+
+// CRIANDO OUTRA TIMELINE
+
+var tl2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.three',
+        start: '0% 95%',
+        end: '20% 50%', // Fim da animação (topo da tela atinge 50% da altura quando estiver 20% da seção .three)
+        scrub: true,
+        markers: true, //DEPURAÇÃO
+    },
+});
+
+// Definindo a animação dos elementos com a timeline 'tl2'
+tl2.from(
+    '.lemon1',
+    {
+        rotate: '-90deg', // Inicia o elemento com a classe 'lemon1' rotacionado
+        left: '-100%', // Inicia o elemento fora da tela, à esquerda (-100%)
+        top: '110%', // Inicia o elemneto ligeiramente abaixo da tela (110% do topo)
+    },
+    'ca'
+); // Nomeando estre trecho de animação como 'ca' para sicronização
