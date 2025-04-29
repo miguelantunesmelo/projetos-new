@@ -81,3 +81,45 @@ tl2.from(
     },
     'ca'
 ); // Nomeando estre trecho de animação como 'ca' para sicronização
+
+tl2.from(
+    '#cocacola',
+    {
+        rotate: '-90deg', // Inicia o elemento com id 'cocacola' rotacionado  
+        top: '110%', // Inicia o elemento ligeiramente abaixo da tela (100% do topo )
+        left: '-100%', // Inicia  o elemento fora da tela, à esquerda (-100%)
+    },
+    'ca'
+); // Sicronizado com a animação nomeada de 'ca'
+
+
+tl2.from(
+    '.lemon2',
+    {
+        rotate: '90deg', // Inicia o elemento com classe 'lemon2' rotacionado em 90 graus
+        left: '100%', // Inicia o elemento fora da tela, à direita (100%)
+        top: '110%', // Inicia o elemento ligeiramente abaixo da tela (110% do topo)
+    },
+    'ca'
+); // Sicronizado com a animação nomeada 'ca
+
+tl2.from(
+    '#pepsi',
+    {
+        rotate: '90deg', // Inicia o elemento com o id 'pepsi' rotacionado em 90 graus
+        left: '100%', // Inicia o elemento fora da tela, à direita (100%)
+        top: '110%', // Inicia o elemento ligeiramente abaixo da tela (110% do topo)
+    },
+    'ca'
+); // Sicronizado com a animação nomeada 'ca'
+
+tl2.to(
+    '#laranja-cortada',
+    {
+        width: '18%', // Aumenta a largura do elemento com o id 'çaranja-cortada' para 18%
+        left: '42%', // Move o elemento para 42% da esquerda
+        top: '204%', // Move o elemento para 204% do topo
+    },
+    'ca'
+); // Sicronizado com a animação nomeada 'ca'
+
