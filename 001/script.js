@@ -32,10 +32,19 @@ tl.to(
 tl.to(
     '#laranja',
     {
-        width: '15', // Reduz a largura do elemeto com o id 'laranja' para 15%
+        width: '15%', // Reduz a largura do elemeto com o id 'laranja' para 15%
         top: '160%', // Move o elemento para 160% do topo
         right: '10%', // Move o elemento para 10% da direita
     },
     'laranja'
 ); // Sicronizado com a animação nomeada 'laranja'
 
+tl.to(
+    '#folha',
+    {
+        top: '110%', //Move o elemento com o id 'folha' para 110% do topo
+        rotate: '130deg', // Rotaciona e elemento em 130 graus
+        left: '70%', // Move o elemento para 70% da esquerda
+    },
+    'laranja'
+)
