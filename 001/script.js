@@ -43,8 +43,18 @@ tl.to(
     '#folha',
     {
         top: '110%', //Move o elemento com o id 'folha' para 110% do topo
-        rotate: '130deg', // Rotaciona e elemento em 130 graus
+        rotate: '530deg', // Rotaciona e elemento em 130 graus
         left: '70%', // Move o elemento para 70% da esquerda
     },
     'laranja'
-)
+); // Sicronizando com a animação nomeada 'laranja'
+
+tl.to(
+    '#folha2',
+    {
+        top: '110%', //Move o elemento com o id 'folha' para 110% do topo
+        rotate: '530deg', // Rotaciona e elemento em 130 graus
+        left: '0%', // Move o elemento para 70% da esquerda
+    },
+    'laranja'
+); // Sicronizando com a animação nomeada 'laranja'
