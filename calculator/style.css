@@ -102,3 +102,29 @@ body {
 .triple {
     flex-basis: 73%;
 }
+
+@media (max-width: 500px) {
+    .wrapper {
+        flex-basis: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .screen {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .calc-button {
+        font-size: 20px;
+        height: 55px;
+    }
+
+    .double {
+        flex-basis: 47%;
+    }
+
+    .triple {
+        flex-basis: 73%;
+    }
+}
