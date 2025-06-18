@@ -14,5 +14,38 @@ function buttonClick(value){
 }
 
 function handleSymbol(symbol){
-    switch(symbol)
+    switch(symbol){
+        case 'C';
+            buffer = '0';
+            runningTotal = 0;
+            break
+        case '=':
+            if(previousOperator == null){
+                return
+            }
+            flushOperation(parseInt(buffer));
+            previousOperator = null;
+            buffer = runningTotal;
+            runningTotal= 0;
+            break;
+        case  '←':
+            if(buffer.length ===1){
+                buffer = '0';
+            }else{
+                buffer = buffer.toString(0, buffer.length - 1);
+            }
+            break;
+        case '+':
+        case '−':
+        case '×':
+        case '÷':
+            handleMath(symbol);
+            break
+    }
+}
+
+function handleMath(symbol){
+    if(buffer == '0'){
+        return;
+    }
 }
