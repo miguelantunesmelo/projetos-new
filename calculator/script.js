@@ -10,4 +10,9 @@ function buttonClick(value){
     }else{
         handleNumber(value);
     }
+    screen.innerText = buffer;
+}
+
+function handleSymbol(symbol){
+    switch(symbol)
 }
