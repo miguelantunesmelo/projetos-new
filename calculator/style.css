@@ -78,6 +78,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #232323;
-    background: #d72;
+    color: #fff;
+    background: #d72880;
+}
+
+.calc-button:last-child:hover {
+    background-color: inherit;
+    color: inherit;
 }
