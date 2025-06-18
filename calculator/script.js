@@ -95,3 +95,22 @@ function init() {
 }
 
 init();
+
+
+// Animação ao carregar
+gsap.from(".wrapper", {
+    duration: 1,
+    opacity: 0,
+    y: -50,
+    ease: "power2.out"
+});
+
+// Animação dos botões ao clicar
+document.querySelectorAll('.calc-button').forEach(button => {
+    button.addEventListener('click', () => {
+        gsap.fromTo(button, 
+            { scale: 1 },
+            { scale: 1.1, duration: 0.15, yoyo: true, repeat: 1, ease: "power1.inOut" }
+        );
+    });
+});
